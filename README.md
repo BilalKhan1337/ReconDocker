@@ -16,11 +16,12 @@ This repository contains a Dockerized environment that automatically scans a dom
 First, clone the repository to your local machine:
 
 ```bash
-- git clone https://github.com/BilalKhan1337/ReconDocker.git
-- cd ReconDocker
-- docker build -t domain-scanner .
-- docker run -v $(pwd)/results:/app/results domain-scanner example.com
+git clone https://github.com/BilalKhan1337/ReconDocker.git
+cd ReconDocker
+docker build -t domain-scanner .
+docker run -v $(pwd)/results:/app/results domain-scanner example.com
 
+```bash
 
 
 
