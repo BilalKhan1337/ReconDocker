@@ -21,7 +21,7 @@ cd ReconDocker
 docker build -t domain-scanner .
 docker run -v $(pwd)/results:/app/results domain-scanner example.com
 
-```bash
+```
 
 
 
